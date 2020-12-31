@@ -1,0 +1,11 @@
+RXJS Operators
+
+of - turns obj or string to observable
+from - turns promise to observable
+pipe - to manipulate data before subscription
+tap - to perform consoles or any functionality that does not manipulate the data
+share - used to minimize the duplicate API calls in situations where you are subscribing to the same API 
+switchMap - Cancels from one observable and switches to the next and sends value from first observable to second one
+DebounceTime - Similar to setInterval .. Waits for a certain amount of time before emitting the source --- Used mainly in search operations
+
+
